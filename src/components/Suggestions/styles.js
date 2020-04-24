@@ -2,6 +2,7 @@ import styled from "styled-components/native";
 
 //  Dessa forma é possível passar atributos e seta um alignitens para o ScrollView
 export const Container = styled.ScrollView.attrs(() => ({
+  showsHorizontalScrollIndicator: false,
   horizontal: true,
   contentContainerStyle: {
     alignItems: "center",
